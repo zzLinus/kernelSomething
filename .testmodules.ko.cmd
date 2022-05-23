@@ -1,0 +1,1 @@
+cmd_/home/zz/Dev/C/kernelstuff/kernelModules/testmodules.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/zz/Dev/C/kernelstuff/kernelModules/testmodules.ko /home/zz/Dev/C/kernelstuff/kernelModules/testmodules.o /home/zz/Dev/C/kernelstuff/kernelModules/testmodules.mod.o;  true
