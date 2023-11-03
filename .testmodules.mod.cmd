@@ -1,1 +1,1 @@
-cmd_/home/zz/Dev/C/kernelstuff/kernelModules/testmodules.mod := { echo  /home/zz/Dev/C/kernelstuff/kernelModules/testmodules.o;  echo; } > /home/zz/Dev/C/kernelstuff/kernelModules/testmodules.mod
+savedcmd_/home/zzlinus/dev/c/kernelSomething/testmodules.mod := printf '%s\n'   testmodules.o | awk '!x[$$0]++ { print("/home/zzlinus/dev/c/kernelSomething/"$$0) }' > /home/zzlinus/dev/c/kernelSomething/testmodules.mod

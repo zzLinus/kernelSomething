@@ -1,2 +1,1 @@
-/home/zz/Dev/C/kernelstuff/kernelModules/testmodules.o
-
+/home/zzlinus/dev/c/kernelSomething/testmodules.o

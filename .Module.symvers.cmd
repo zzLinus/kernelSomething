@@ -1,1 +1,1 @@
-cmd_/home/zz/Dev/C/kernelstuff/kernelModules/Module.symvers := sed 's/\.ko$$/\.o/' /home/zz/Dev/C/kernelstuff/kernelModules/modules.order | scripts/mod/modpost  -a  -o /home/zz/Dev/C/kernelstuff/kernelModules/Module.symvers -e -i Module.symvers  -N -T -
+savedcmd_/home/zzlinus/dev/c/kernelSomething/Module.symvers :=  scripts/mod/modpost  -a    -N  -o /home/zzlinus/dev/c/kernelSomething/Module.symvers -n -T /home/zzlinus/dev/c/kernelSomething/modules.order -i Module.symvers -e 
